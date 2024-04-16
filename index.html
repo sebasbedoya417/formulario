@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-content">
+        <h1 class="uno">Formulario de registro-Mi web</h1>
+        <br><br>
+        <form action="https://formspree.io/f/xyyrlggd" method="post">
+
+            <label class="label" for="name">Nombre:</label>
+            <br>
+            <input type="text"name="name"id="name" maxlength="50"required>
+            <br><br>
+
+            <label class="label" for="apellido">Apellido:</label>
+            <br>
+            <input type="text"apellido="apellido"id="apellido" maxlength="50"required>
+
+             <br><br>
+             <input  type="radio"name="sexo">
+             <label class="sexo" for="m">masculino</label>
+           
+            <input  type="radio"name="sexo">
+            <label class="sexo" for="sexo"for="f">femenimo</label>
+            
+             <br><br>
+            <label class="label" for="email">corrreo electronico:</label>
+            <br>
+            <input type="email"name="email"id="email"required>
+             <br><br>
+             <input type="checkbox" name="verificacion"id="verificacion"checked>
+            <label class="label" for="verificacion" id="verificacion">deseo recibir informacion sobre novedades y ofertas.</label>
+            <br>
+            <input type="checkbox"name="verificacion2"id="verificacion2">
+            <label class="label" for="verificacion2" id="verificacion2">declaro haber leido y aceptar las condiciones generales del programa y la normatividad sobre proteccion de datos.</label>
+            <br><br>
+
+            <input  class= "reset" type="reset" value="borrar datos">
+             <br><br><br>
+
+            <center><input class="boton" type="submit" value="enviar"></center>
+
+
+            
+    
+        </form>
+    </div>
+    
+    
+</div>
+</body>
+</html>
